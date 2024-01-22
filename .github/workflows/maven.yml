@@ -24,6 +24,5 @@ jobs:
           cache: maven
 
       - name: Build
-        run: |
-          run: mvn -B package --file ./quarkus-getting-started/pom.xml
-          docker image ls
+        run: mvn -B package --file ./quarkus-getting-started/pom.xml
+             docker image ls
