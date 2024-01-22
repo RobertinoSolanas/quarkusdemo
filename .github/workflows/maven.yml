@@ -25,5 +25,5 @@ jobs:
 
       - name: Build
         run: |
-          ./mvn package -B
+          run: mvn -B package --file ./quarkus-getting-started/pom.xml
           docker image ls
